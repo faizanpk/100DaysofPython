@@ -1,1 +1,7 @@
-https://replit.com/@faizanPK/PythonDay1#main.py
+print("""Faizan Ahmed
+23rd Feb 1995""")
+print("Hello World")
+print("My 1st day of learning Python")
+print("""I have tried alot to learn Python but I have not been consistent. 
+This time I pledge to finish this off. 
+I am ready to give it my all. I will practice everyday, no matter what it takes.""")
