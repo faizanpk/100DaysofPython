@@ -1,1 +1,10 @@
-https://replit.com/@faizanPK/PythonDay2#main.py
+##########    input from user    #############
+
+name = input("Enter your name: ")
+favorite_food = input("Enter your favorite food: ")
+favorite_music = input("Enter your favorite music: ")
+residence =  input("Where do you live: ")
+
+print(f"""Hello {name}, you are from {residence}, 
+you love to eat {favorite_food} and 
+listen to {favorite_music}.""")
