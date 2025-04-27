@@ -1,0 +1,14 @@
+#########     if-else statement     ##########
+
+name = input("Enter your name: ")
+
+if name == "Alice":
+    print("Hello, Alice!")
+    Question_1 = input("Do you like travelling? ")
+    if Question_1.lower() == "yes":
+        favorite_place = input("What is your favorite place? ")
+        print(f"Wow! {favorite_place} is a great place to visit!")
+    else:
+        print("That's fine, maybe you have other interests.")
+else:
+    print("Hello,", name)
