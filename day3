@@ -1,1 +1,12 @@
-https://replit.com/@faizanPK/PythonDay3#main.py
+#######     Concatenation    ##########
+
+food = input("Name a food: ")
+ingredients = input("Name the ingredients: ")
+making = input("How to make it: ")
+print(food, "\nusing", ingredients, "\nby", making,
+      """is a healthy treat to calm your hunger in no time!""")
+
+print("OR")
+
+print(f"""{food} \nusing {ingredients} \nby {making} is a healthy
+treat to calm your hunger in no time!""")
