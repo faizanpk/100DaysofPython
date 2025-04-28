@@ -10,5 +10,7 @@ if name == "Alice":
         print(f"Wow! {favorite_place} is a great place to visit!")
     else:
         print("That's fine, maybe you have other interests.")
+elif name == "Mark":
+    print("Hello, Mark!")
 else:
     print("Hello,", name)
