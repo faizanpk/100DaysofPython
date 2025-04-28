@@ -1,4 +1,4 @@
-##########    input from user    #############
+##########    input from user    ############
 
 name = input("Enter your name: ")
 favorite_food = input("Enter your favorite food: ")
