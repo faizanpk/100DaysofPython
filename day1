@@ -1,4 +1,4 @@
-##########      Print statement     ###########
+##########      Print statement     ##########
 
 print("""Faizan Ahmed
 23rd Feb 1995""")
