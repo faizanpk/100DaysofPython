@@ -1,0 +1,18 @@
+#######     dinner bill calculator     #########
+
+print("Bill calculator")
+
+friends = int(input("How many friends gather for dinner? "))
+bill = float(input("How much is the total bill? "))
+print("The total bill is: ", bill)
+split = bill/friends
+
+add_tip = input("Would you like to add a tip? (yes/no) ")
+if add_tip == "yes":
+    tip = float(input("How much would you like to tip? "))
+    print("Tip is added: ", tip)
+    split = split + (tip/friends)
+    print("Each friend will pay: ", split)  
+else:
+    print("Tip is not added.")
+    print("Each friend will pay: ", split)
