@@ -1,4 +1,4 @@
-#######     Concatenation    ##########
+#######     Concatenation    #########
 
 food = input("Name a food: ")
 ingredients = input("Name the ingredients: ")
